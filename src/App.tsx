@@ -1,4 +1,5 @@
 import React from 'react';
+import { StatusBar } from 'react-native';
 import { ThemeProvider } from 'styled-components';
 
 // Misc
@@ -13,6 +14,8 @@ const App = () => (
     <AppContainer>
       <HelloWorld />
     </AppContainer>
+
+    <StatusBar translucent backgroundColor="transparent" />
   </ThemeProvider>
 );
 
