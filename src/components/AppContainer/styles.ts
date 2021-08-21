@@ -23,3 +23,5 @@ export const Container = styled(LinearGradient).attrs(props => {
     padding-top: ${StatusBar.currentHeight}px;
   `}
 `;
+
+export const Content = styled.SafeAreaView``;
