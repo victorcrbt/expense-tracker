@@ -1,5 +1,5 @@
 import React from 'react';
-import { StatusBar } from 'react-native';
+import { StatusBar, Platform } from 'react-native';
 import { ThemeProvider } from 'styled-components';
 
 // Misc
@@ -15,7 +15,11 @@ const App = () => (
       <HelloWorld />
     </AppContainer>
 
-    <StatusBar translucent backgroundColor="transparent" />
+    <StatusBar
+      translucent
+      backgroundColor="transparent"
+      barStyle={Platform.OS === 'ios' ? 'light-content' : 'default'}
+    />
   </ThemeProvider>
 );
 
