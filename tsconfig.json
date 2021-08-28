@@ -1,18 +1,20 @@
-
 {
   "compilerOptions": {
+    "declaration": true,
     "target": "esnext",
     "module": "commonjs",
     "lib": ["es2017"],
     "allowJs": true,
     "jsx": "react-native",
     "noEmit": true,
-    "isolatedModules": true,
+    "isolatedModules": false,
     "strict": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
+    "preserveConstEnums": true,
     "skipLibCheck": false,
+    "typeRoots": ["node_modules/@types", "./src/@types"],
     "baseUrl": "src",
     "paths": {
       "@assets/*": ["./assets/*"],
@@ -31,6 +33,9 @@
     }
   },
   "exclude": [
-    "node_modules", "babel.config.js", "metro.config.js", "jest.config.js"
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
   ]
 }
