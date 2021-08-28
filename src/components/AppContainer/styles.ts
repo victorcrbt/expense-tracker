@@ -24,4 +24,6 @@ export const Container = styled(LinearGradient).attrs(props => {
   `}
 `;
 
-export const Content = styled.SafeAreaView``;
+export const Content = styled.SafeAreaView`
+  flex: 1;
+`;

@@ -1,0 +1,1 @@
+export { SingUpScreen } from './SignUpScreen';
