@@ -13,7 +13,12 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint', 'import', 'prettier'],
   rules: {
+    'no-undef': 'off',
     'no-use-before-define': 'off',
+    'no-shadow': 'off',
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': 'off',
+    '@typescript-eslint/no-shadow': ['error'],
     '@typescript-eslint/no-use-before-define': ['error'],
     'prettier/prettier': 'error',
     'import/extensions': [
@@ -27,6 +32,7 @@ module.exports = {
       },
     ],
     'react/jsx-filename-extension': ['warn', { extensions: ['.tsx'] }],
+    'react/jsx-props-no-spreading': 'off',
     'import/prefer-default-export': 'off',
     'react/prop-types': 'off',
   },
