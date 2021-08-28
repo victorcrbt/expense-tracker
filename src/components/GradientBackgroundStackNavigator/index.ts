@@ -1,0 +1,1 @@
+export { GradientBackgroundStackNavigator } from './GradientBackgroundStackNavigator';
