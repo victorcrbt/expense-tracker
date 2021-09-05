@@ -7,7 +7,7 @@ import { ThemeProvider } from 'styled-components';
 import { defaultTheme } from '@styles/themes/default';
 
 // Shared Components
-import { AppContainer } from '@components/AppContainer';
+import { AppContainer } from '@containers/AppContainer';
 import { Router } from './routes';
 
 const App = () => (

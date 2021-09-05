@@ -1,6 +1,6 @@
 import { createNavigatorFactory } from '@react-navigation/native';
 
-import { GradientBackgroundStackNavigator } from '@components/GradientBackgroundStackNavigator';
+import { GradientBackgroundStackNavigator } from '@containers/GradientBackgroundStackNavigator';
 
 export const createGradientBackgroundStackNavigator = createNavigatorFactory(
   GradientBackgroundStackNavigator
