@@ -10,6 +10,7 @@ module.exports = {
           '@components': './src/components',
           '@config': './src/config',
           '@constants': './src/constants',
+          '@containers': './src/containers',
           '@contexts': './src/contexts',
           '@database': './src/database',
           '@helpers': './src/helpers',

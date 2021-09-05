@@ -21,6 +21,7 @@
       "@components/*": ["./components/*"],
       "@config/*": ["./config/*"],
       "@constants/*": ["./constants/*"],
+      "@containers/*": ["./containers/*"],
       "@contexts/*": ["./contexts/*"],
       "@database/*": ["./database/*"],
       "@helpers/*": ["./helpers/*"],
