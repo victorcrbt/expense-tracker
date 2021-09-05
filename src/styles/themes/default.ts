@@ -4,13 +4,13 @@ export const defaultTheme = {
   name: 'default',
 
   colors: {
-    lightPrimary: '#F178F3',
-    primary: '#B922B3',
-    darkPrimary: '#9e1599',
+    lightPrimary: '#ff8091',
+    primary: '#ff455e',
+    darkPrimary: '#ff334e',
 
-    lightSecondary: '#13eccf',
-    secondary: '#0FBAA4',
-    darkSecondary: '#0b8e7d',
+    lightSecondary: '#4dc6ff',
+    secondary: '#2BBCFF',
+    darkSecondary: '#00aeff',
 
     success: '',
     warning: '',
@@ -32,5 +32,19 @@ export const defaultTheme = {
     h4: '20px',
     h5: '16px',
     h6: '12px',
+  },
+
+  border: {
+    size: {
+      small: '1px',
+      medium: '2px',
+      large: '4px',
+    },
+
+    radius: {
+      small: '4px',
+      medium: '8px',
+      large: '12px',
+    },
   },
 } as DefaultTheme;

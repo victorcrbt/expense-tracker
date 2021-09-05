@@ -34,5 +34,19 @@ declare module 'styled-components' {
       h5: string;
       h6: string;
     };
+
+    border: {
+      size: {
+        small: string;
+        medium: string;
+        large: string;
+      };
+
+      radius: {
+        small: string;
+        medium: string;
+        large: string;
+      };
+    };
   }
 }
