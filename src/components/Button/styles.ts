@@ -1,6 +1,7 @@
 import styled from 'styled-components/native';
 
 export const Container = styled.Pressable<ButtonNamespace.Styles.ContainerProps>`
+  width: 100%;
   height: 60px;
 
   border-radius: 8px;

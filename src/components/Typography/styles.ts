@@ -1,6 +1,7 @@
 import styled, { css } from 'styled-components/native';
 
 export const Container = styled.Text<TypographyNamespace.Styles.ContainerProps>`
+  width: 100%;
   margin: 8px 0;
 
   text-transform: ${props => props.transform};
