@@ -23,4 +23,14 @@ export const defaultTheme = {
     darkGray: '',
     black: '',
   },
+
+  fontSize: {
+    paragraph: '14px',
+    h1: '36px',
+    h2: '28px',
+    h3: '24px',
+    h4: '20px',
+    h5: '16px',
+    h6: '12px',
+  },
 } as DefaultTheme;
