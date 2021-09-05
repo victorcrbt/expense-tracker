@@ -35,6 +35,7 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     'import/prefer-default-export': 'off',
     'react/prop-types': 'off',
+    'jsx-a11y/anchor-is-valid': 'off',
   },
   settings: {
     'import/parsers': {
